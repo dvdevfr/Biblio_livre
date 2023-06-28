@@ -1,0 +1,41 @@
+.cardsContainer {
+  width: 100%;
+  padding: 0 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.cardsContainer > div {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+.cardsContainer > div > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+  padding: 5% 15%;
+  margin: 0;
+}
+.cardsContainer h5 {
+  font-size: 20px;
+  margin: 0;
+}
+.cardsContainer p {
+  margin: 0;
+}
+.cardsContainer button {
+  font-size: 18;
+  width: 100%;
+  background-color: red;
+  padding: 10px 0;
+  border: 0;
+}
+
+
+/*# sourceMappingURL=/card.f1fbc6ee.css.map */
